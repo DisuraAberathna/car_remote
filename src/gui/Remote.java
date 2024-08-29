@@ -233,12 +233,10 @@ public class Remote extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        javainstitute.io.BluetoothDevice.connect("00210900495B");
         javainstitute.io.BluetoothDevice.send("1");
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        javainstitute.io.BluetoothDevice.connect("00210900495B");
         javainstitute.io.BluetoothDevice.send("3");
     }//GEN-LAST:event_jButton3ActionPerformed
 
@@ -247,22 +245,18 @@ public class Remote extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        javainstitute.io.BluetoothDevice.connect("00210900495B");
-        javainstitute.io.BluetoothDevice.send("5");
+//        javainstitute.io.BluetoothDevice.
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-//        javainstitute.io.BluetoothDevice.connect("00210900495B");
-//        javainstitute.io.BluetoothDevice.send("1");
+        javainstitute.io.BluetoothDevice.connect("00210900495B");
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        javainstitute.io.BluetoothDevice.connect("00210900495B");
         javainstitute.io.BluetoothDevice.send("2");
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        javainstitute.io.BluetoothDevice.connect("00210900495B");
         javainstitute.io.BluetoothDevice.send("4");
     }//GEN-LAST:event_jButton4ActionPerformed
 
